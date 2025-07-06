@@ -88,7 +88,7 @@ public WebClient webClient(WebClient.Builder builder) throws SSLException {
 - **HttpClient** overlays per‑request timeouts.
 - Filters add structured logs **once**—visible on every call.
 
-### 4.3 The façade (typed, trace‑aware helpers)
+### 4.3 Making Web Requests Effortless: Typed and Context-Aware Helpers
 
 The `CommonWebClient` class wraps that bean with *friendly* methods:
 
